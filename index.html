@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+    <body>
+        <h1>Student Regestration Form</h1>
+        <form action="/submit" method="post">
+            <label for="username">Username:</label>
+            <input type="text">
+            <br> <br>
+            <label for="email">email</label>
+            <input type="email">
+            <br> <br>
+            <label for="Gender">Gender</label>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">female</label>
+            <br> <br>
+            <label for="country">country</label>
+            <select name="country" id="country">
+                <option value="india">india</option> 
+                <option value="usa">usa</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Somalia">Somalia</option>
+            </select> <br> <br>
+            <label for="hobbies">hobbies</label>
+            <input type="checkbox" name="hobbies">
+            <label for="reading">reading</label>
+            <input type="checkbox" name="hobbies">
+            <label for="writing">writing</label>
+            <input type="checkbox" name="hobbies">
+            <label for="coding">coding</label>
+            <br> <br>
+            <label for="bio">about you</label> 
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <br> <br>
+            <label for="photo">upload your image</label>
+            <input type="file" name="photo" id="photo">
+            <br> <br>
+            <button type="submit">submit form</button>
+
+        </form>
+    </body>
+</html>
+    
